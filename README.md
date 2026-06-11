@@ -1,24 +1,7 @@
 # Farah Alyami — Portfolio
 
-## Setup
+A personal portfolio showcasing my work in AI engineering, computer vision, NLP, and multi-agent systems. Built to highlight my projects, experience, and background as a fresh AI graduate from Princess Nourah bint Abdulrahman University.
 
-```bash
-npm install
-npm start        # local dev at localhost:3000
-```
+## Live Site
 
-## Deploy to GitHub Pages
-
-1. Create a repo named `farahalsalm1221.github.io` on GitHub
-2. Push this project to that repo
-3. Run:
-```bash
-npm run deploy
-```
-4. Your site will be live at `https://farahalsalm1221.github.io`
-
-## Update content
-All text data (projects, skills, experience, certs) is at the top of `src/App.js` as plain JS arrays — easy to edit.
-
-## Update homepage URL
-In `package.json`, change `"homepage"` to match your GitHub username.
+https://farahalyami2-eng.github.io
