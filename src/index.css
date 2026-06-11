@@ -1,0 +1,24 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --cream: #FAFAF8;
+  --ink: #1A1A18;
+  --ink2: #4A4A46;
+  --ink3: #8A8A84;
+  --sage: #3B6D11;
+  --sage-light: #EAF3DE;
+  --sage-mid: #639922;
+  --border: #E4E4DC;
+  --white: #FFFFFF;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
