@@ -68,11 +68,9 @@ const SKILLS = [
     title: 'Engineering & Tools',
     items: ['Python / Java','FastAPI','Feature Engineering','Arduino / Embedded','Drone Simulation (RotorPy)','Git / Jupyter / Colab'],
   },
-  {
-    title: 'Soft Skills',
-    items: ['Problem-solving','Analytical Thinking','Leadership','Team Collaboration','Communication','Time Management'],
-  },
 ];
+
+const SOFT_SKILLS = ['Problem-solving','Analytical Thinking','Leadership','Team Collaboration','Communication','Time Management'];
 
 const EXPERIENCE = [
   {
@@ -312,10 +310,18 @@ function Skills() {
             <FadeIn key={i}>
               <div className="skill-group">
                 <div className="skill-group-title">{g.title}</div>
-                {g.items.map(item => <div key={item} className="skill-item">{item}<div className="skill-dot" /></div>)}
+                {g.items.map(item => <div key={item} className="skill-item"><div className="skill-dot" />{item}</div>)}
               </div>
             </FadeIn>
           ))}
+        </div>
+        <div className="subsection">
+          <h2 className="section-title">Soft Skills</h2>
+          <FadeIn>
+            <div className="soft-skills-pills">
+              {SOFT_SKILLS.map(skill => <span key={skill} className="soft-skill-pill">{skill}</span>)}
+            </div>
+          </FadeIn>
         </div>
       </div>
     </section>

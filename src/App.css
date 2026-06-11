@@ -81,9 +81,11 @@
 .skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
 .skill-group { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; }
 .skill-group-title { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--sage-mid); margin-bottom: 1rem; }
-.skill-item { display: flex; align-items: center; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--ink2); }
+.skill-item { display: flex; align-items: center; gap: 10px; direction: ltr; padding: 5px 0; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--ink2); }
 .skill-item:last-child { border-bottom: none; }
 .skill-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--sage-mid); flex-shrink: 0; }
+.soft-skills-pills { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.5rem; }
+.soft-skill-pill { background: var(--white); border: 1px solid var(--sage-mid); border-radius: 20px; padding: 6px 16px; font-size: 13px; color: var(--sage-mid); font-weight: 500; }
 
 /* ── EXPERIENCE ── */
 .experience-section { background: var(--white); }
